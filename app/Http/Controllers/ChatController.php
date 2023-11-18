@@ -36,8 +36,8 @@ class ChatController extends Controller
 
         try {
             $response = Http::withHeaders([
-                "Authorization" => "Bearer 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",
-                "OpenAI-Organization" => "org-tIQElLsl9cYFAj3M4eH94Vjd"
+                "Authorization" => "Bearer xxx",
+                "OpenAI-Organization" => "xxx"
             ])->withBody(json_encode([
                 "model" => "gpt-3.5-turbo-0613",
                 "messages" => [
@@ -51,7 +51,7 @@ class ChatController extends Controller
             ]);
 
             $imageGenerationResponse = Http::withHeaders([
-                "Authorization" => "Bearer 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",
+                "Authorization" => "Bearer xxxx",
                 "Content-Type" => "application/json"
             ])->withBody(json_encode([
                 "model" => "dall-e-3",
@@ -79,7 +79,7 @@ class ChatController extends Controller
                 ->json([
                     "status" => "error",
                     "message" => "نأسف 😢 هناك خطأ أثناء تحليل البيانات الرجاء المحاولة لاحقا",
-                    "exception" => $exception->getMessage()
+                    "exception" => $exception->getMessage(),
                 ], 500);
         }
     }

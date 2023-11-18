@@ -105,7 +105,7 @@ $(function () {
         let data = {
             message
         };
-        let response = fetch("{{ route('chat.word_description') }}", {
+        let response = fetch(url, {
             method: "POST",
             headers: {
                 "X-CSRF-TOKEN": $('meta[name="csrf-token"]').attr('content'),
