@@ -3,11 +3,13 @@
 
 <head>
     <meta charset="utf-8">
+    <meta content="فهيم AI Team" name="author">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="خاصية البحث العكسي في معجم الرياض، بحيث يتاح للمستخدم إدخال وصف للكلمة أو شرحها أو معناها، ويقوم نموذج الذكاء الاصطناعي باقتراح عدد من المفردات التي تؤدي نفس المعنى في الوصف، بالإضافة إلى توليد صورة لهذه المفردة" name="description">
+    <meta content="ai,image,description,meaning,words,dictionary" name="keywords">
 
-    <title>فهيم</title>
-    <meta content="" name="description">
-    <meta content="" name="keywords">
+
+    <title>فهيم AI</title>
 
 
     <!-- Favicons -->
@@ -30,13 +32,6 @@
     <!-- Template Main CSS File -->
     <link href="{{ asset("css/style.css") }}" rel="stylesheet">
 
-    <!-- =======================================================
-    * Template Name: Flexor
-    * Updated: Sep 18 2023 with Bootstrap v5.3.2
-    * Template URL: https://bootstrapmade.com/flexor-free-multipurpose-bootstrap-template/
-    * Author: BootstrapMade.com
-    * License: https://bootstrapmade.com/license/
-    ======================================================== -->
 </head>
 
 <body>
