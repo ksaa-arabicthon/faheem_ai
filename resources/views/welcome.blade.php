@@ -53,7 +53,7 @@
                     <div class="text-center text-white ">
                         <!-- Page heading-->
                         <h1 class="mb-5">فهيم</h1>
-                        <p> 
+                        <p>
                         فكرة مشروعنا تتمثل في إضافة خاصية البحث العكسي في معجم الرياض، بحيث يتيح للمستخدم إدخال وصف للكلمة أو شرحها أو معناها، ويقوم نموذج الذكاء الاصطناعي بتحليل الوصف المدخل وتوليد المفردة التي تؤدي نفس المعنى، بالإضافة إلى توليد صورة لهذه المفردة
 
                         </p>
@@ -65,7 +65,7 @@
 
                 <div class="col-md-6 col-xs-12 text-center">
                     <!-- Page heading-->
-                    <img src="/img/real-life-chat3.png" width="65%" style="border-radius: 100px" alt="">
+                    <img src="{{ asset("img/real-life-chat3.png") }}" width="65%" style="border-radius: 100px" alt="">
 
                 </div>
             </div>
@@ -83,7 +83,7 @@
                     <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                         <div class="features-icons-icon d-flex"><i class="bi-translate  m-auto text-primary"></i></div>
                         <h4>خدمة الناطقين بغير العربية</h4>
-                       
+
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -127,7 +127,7 @@
                         <p class="lead mb-0" style="direction: ltr;">
                         Laravel,                        MultiRD, <br>
                             Multi-channel Reverse Dictionary Model,
-                            
+
                             Dall-e +
                         </p>
                     </div>
@@ -217,7 +217,7 @@
 
   <!-- Copyright -->
   <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05); ">
-    © 
+    ©
     <a class="text-reset fw-bold" href="/"> فهيم 2023</a>
   </div>
   <!-- Copyright -->
