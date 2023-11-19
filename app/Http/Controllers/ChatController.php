@@ -36,8 +36,8 @@ class ChatController extends Controller
 
         try {
             $response = Http::withHeaders([
-                "Authorization" => "Bearer xxx",
-                "OpenAI-Organization" => "xxx"
+                "Authorization" => "Bearer ".env("OPEN_AI_KEY"),
+                "OpenAI-Organization" => env("OPEN_AI_ORGANIZATION")
             ])->withBody(json_encode([
                 "model" => "gpt-3.5-turbo-0613",
                 "messages" => [
@@ -51,7 +51,7 @@ class ChatController extends Controller
             ]);
 
             $imageGenerationResponse = Http::withHeaders([
-                "Authorization" => "Bearer xxxx",
+                "Authorization" => "Bearer ".env("OPEN_AI_KEY"),
                 "Content-Type" => "application/json"
             ])->withBody(json_encode([
                 "model" => "dall-e-3",
