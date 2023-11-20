@@ -55,7 +55,7 @@
 
 ## للوصول للموقع  
 
-<p>
+<p dir="rtl">
 <a href="https://faheem.azzain.net/">
 <img style="width: 250px; height: 250px;" src="https://raw.githubusercontent.com/soaod/faheem_ai/master/public/img/carcode.png" alt="website barcode">
 </a>
